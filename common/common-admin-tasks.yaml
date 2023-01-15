@@ -1,0 +1,5 @@
+- name: Setup server
+  tasks:
+  - name: Change cockpit default port number
+    debug:
+      msg: "Set cockpit port to {{ cockpit_port }}"

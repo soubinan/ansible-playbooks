@@ -1,0 +1,20 @@
+all:
+  vars:
+    ansible_user: soubinan
+    # ansible_port: 22/5986
+  hosts:
+    manager:
+      ansible_host: 192.168.10.6 # m92p1
+    worker:
+      ansible_host: 192.168.10.4 # r6201
+  children:
+    cloud:
+      children:
+        managers:
+        workers:
+    managers:
+        hosts:
+          manager:
+    workers:
+        hosts:
+          worker:
