@@ -1,5 +1,7 @@
-# README
+# Ansible Playbooks
 
-## Handlers
+## Ansible tips notes
 
-Do not forget to use handlers flushers when we need handlers to be run before the playbook end (the handler is executed at the place we have the flusher)
+### Forced Handlers execution (all pending handlers) with handlers flushers
+
+the handlers will be executed at the place we have the handler flusher

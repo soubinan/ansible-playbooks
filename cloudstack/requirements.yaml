@@ -1,0 +1,4 @@
+- src: ../../ansible-roles/cloudstack
+  name: cloudstack
+  version: ''
+  scm: git

@@ -1,0 +1,14 @@
+- src: ../../ansible-roles/cockpit
+  name: cockpit
+  version: ''
+  scm: git
+
+- src: ../../ansible-roles/selinux
+  name: selinux
+  version: ''
+  scm: git
+
+- src: ../../ansible-roles/firewall
+  name: firewall
+  version: ''
+  scm: git
